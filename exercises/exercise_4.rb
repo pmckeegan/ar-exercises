@@ -19,6 +19,8 @@ puts 'MENS STORES********'
   puts store.name
   puts store.annual_revenue
 end
+
+
 puts 'WOMENS STORES *********'
 @womens_stores = Store.where("womens_apparel = 'true'")
 @womens_stores.each do |store|
