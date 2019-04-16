@@ -21,4 +21,3 @@ puts 'STORES GENERATING > $1,000,000 PER YEAR'
 
 @millionaire_stores = Store.where("annual_revenue >='1000000'")
 puts @millionaire_stores.count
-
